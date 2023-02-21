@@ -5,7 +5,6 @@ import {
 	Switch
 } from 'react-router-dom';
 import Dashboard from './Dashboard';
-import FindFriends from './FindFriends';
 
 export default function App() {
 
@@ -23,12 +22,7 @@ export default function App() {
 						render={() => (
 							<Dashboard />
 						)} />
-					{/* ---- Part 2 (FindFriends) ---- */}
-					{/* TODO (1) - Add a Route for the path "/FindFriends" */}
-					<Route exact path ="/FindFriends"
-						   render={() => (
-							   <FindFriends />
-						   )} />
+
 				</Switch>
 			</Router>
 		</div>
