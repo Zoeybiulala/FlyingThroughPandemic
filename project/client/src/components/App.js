@@ -5,6 +5,7 @@ import {
 	Switch
 } from 'react-router-dom';
 import Dashboard from './Dashboard';
+import ComparePage from "./ComparePage";
 
 export default function App() {
 
@@ -22,6 +23,11 @@ export default function App() {
 						render={() => (
 							<Dashboard />
 						)} />
+					<Route exact
+						   path="/comparison"
+						   render={() => (
+							   <ComparePage />
+						   )} />
 
 				</Switch>
 			</Router>

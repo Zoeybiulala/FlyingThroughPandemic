@@ -5,7 +5,7 @@ export default function PageNavbar(props) {
 	const [navDivs, setNavDivs] = useState([]);
 
 	useEffect(() => {
-		const pageList = ['Dashboard'];
+		const pageList = ['Dashboard','Comparison'];
 
 		let navbarDivs = pageList.map((page, i) => {
 			if (props.active === page) {

@@ -5,6 +5,22 @@
   height: 40px;
 }
 
+.dropdown-container {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  margin-right: 20px;
+}
+
+.middle {
+  margin-right: 40px;
+}
+
+.right {
+  margin-left: 20px;
+}
 .header-lg {
   flex: 1 0 50%;
 }
